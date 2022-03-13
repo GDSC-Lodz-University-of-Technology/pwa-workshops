@@ -5,7 +5,7 @@
 ### Articles:
 
 - **[Google: Service Workers an Introduction](https://developers.google.com/web/fundamentals/primers/service-workers?authuser=1)**
-- **[Google: Learn PWA tutorial](https://developers.google.com/web/fundamentals/primers/service-workers?authuser=1)**
+- **[Google: Learn PWA tutorial](https://web.dev/learn/pwa/)**
 - **[Jake Archibald: The offline cookbook](https://jakearchibald.com/2014/offline-cookbook/)**
 
 ### Videos
