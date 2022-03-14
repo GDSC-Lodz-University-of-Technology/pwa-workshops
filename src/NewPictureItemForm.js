@@ -51,7 +51,7 @@ const template = `
 </form>
 `;
 
-export class NewPictureItemFrom extends HTMLElement {
+export class NewPictureItemForm extends HTMLElement {
 
   static TAG = 'kk-new-picture';
 
@@ -95,4 +95,4 @@ export class NewPictureItemFrom extends HTMLElement {
 
 }
 
-customElements.define(NewPictureItemFrom.TAG, NewPictureItemFrom);
+customElements.define(NewPictureItemForm.TAG, NewPictureItemForm);

@@ -1,4 +1,4 @@
-import { NewPictureItemFrom } from "./NewPictureItemFrom.js";
+import { NewPictureItemForm } from "./NewPictureItemForm.js";
 import { PicturesList } from "./PicturesList.js";
 
 const template = `
@@ -17,7 +17,7 @@ const template = `
 }
 </style>
 <main id="container">
-  <${NewPictureItemFrom.TAG}></${NewPictureItemFrom.TAG}>
+  <${NewPictureItemForm.TAG}></${NewPictureItemForm.TAG}>
   <${PicturesList.TAG}></${PicturesList.TAG}>
 </main>
 `;
@@ -38,7 +38,7 @@ export class App extends HTMLElement {
   }
 
   getElementReferences() {
-    this._newPictureForm = this.shadowRoot.querySelector(NewPictureItemFrom.TAG);
+    this._newPictureForm = this.shadowRoot.querySelector(NewPictureItemForm.TAG);
     this._picturesList = this.shadowRoot.querySelector(PicturesList.TAG);
   }
 
