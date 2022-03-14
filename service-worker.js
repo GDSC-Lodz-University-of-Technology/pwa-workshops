@@ -25,6 +25,24 @@ self.addEventListener('install', (e) => {
   )
 });
 
+self.addEventListener('activation', (e) => {
+  const allowedCacheNames = ['pic-li-v1'];
+  e.waitUntil(caches.keys()
+    .then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cacheName) => {
+          if (!allowedCacheNames.includes(cacheName)) {
+            return caches.delete(cacheName);
+          }
+        })
+      )
+    })
+    .catch((error) => {
+      console.error(`ServiceWorker couldn't be activated: `, error);
+    })
+  )
+});
+
 self.addEventListener('fetch', (e) => {
   e.respondWith(caches.match(e.request)
     .then((response) => {
@@ -40,12 +58,16 @@ self.addEventListener('fetch', (e) => {
         caches.open(CACHE_NAME).then((cache) => {
           cache.put(e.request, responseToCache)
             .then(() => {
-              console.log('New resource cached: ', e.request.url);
+              console.log('ServiceWorker cached new resource: ', e.request.url);
             })
             .catch((error) => {
-              console.error(`Couldn't cache new resource: `, error);
+              console.error(`ServiceWorker Couldn't cache new resource: `, error);
             })
         })
       });
-    }));
+    })
+    .catch((error) => {
+      console.error(`ServiceWorker couldn't be activated: `, error);
+    })
+  );
 });
