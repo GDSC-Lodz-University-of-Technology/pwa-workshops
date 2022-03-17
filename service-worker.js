@@ -1,14 +1,14 @@
 const CACHE_NAME = 'pic-li-v1';
 const URLS_TO_CACHE = [
-  '/',
-  'styles/style.css',
-  'styles/shared-style.css',
-  'src/index.js',
-  'src/App.js',
-  'src/InstallationPrompt.js',
-  'src/NewPictureItemForm.js',
-  'src/PictureItem.js',
-  'src/PicturesList.js'
+  './',
+  './styles/style.css',
+  './styles/shared-style.css',
+  './src/index.js',
+  './src/App.js',
+  './src/InstallationPrompt.js',
+  './src/NewPictureItemForm.js',
+  './src/PictureItem.js',
+  './src/PicturesList.js'
 ];
 
 self.addEventListener('install', (e) => {
