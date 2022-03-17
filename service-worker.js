@@ -5,6 +5,7 @@ const URLS_TO_CACHE = [
   'styles/shared-style.css',
   'src/index.js',
   'src/App.js',
+  'src/InstallationPrompt.js',
   'src/NewPictureItemForm.js',
   'src/PictureItem.js',
   'src/PicturesList.js'
