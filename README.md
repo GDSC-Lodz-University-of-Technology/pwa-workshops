@@ -84,7 +84,14 @@ setting up your next PWA app
 - **[Jake Archibald: The offline cookbook](https://jakearchibald.com/2014/offline-cookbook/)**
 - **[What makes a good Progressive Web App?](https://web.dev/pwa-checklist/)**
 
-### Videos
+### Videos:
 
 - **[Instant Loading: Building offline-first Progressive Web Apps - Google I/O 2016](https://www.youtube.com/watch?v=cmGr0RszHc8)**
 - **[Making things fast in world of build tools by Surma & Jake Archibald | JSConf Budapest 2019](https://www.youtube.com/watch?v=fWc3Zu6A3Ws)**
+
+### Dev tools:
+
+- **[Squoosh - image compression](https://squoosh.app/)**
+- **[PWA Builder -  icons generator](https://www.pwabuilder.com/imageGenerator)**
+- **[PWA Builder - Generating packages stores](https://blog.pwabuilder.com/docs/generating-your-android-package)**
+- **[More PWA tools](https://www.pwabuilder.com/)**
