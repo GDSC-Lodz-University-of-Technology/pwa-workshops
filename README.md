@@ -92,6 +92,7 @@ setting up your next PWA app
 ### Dev tools:
 
 - **[Squoosh - image compression](https://squoosh.app/)**
+- **[bubblewrap - generating store packages in command line](https://github.com/GoogleChromeLabs/bubblewrap/tree/main/packages/cli#bubblewrap-cli)**
 - **[PWA Builder -  icons generator](https://www.pwabuilder.com/imageGenerator)**
-- **[PWA Builder - Generating packages stores](https://blog.pwabuilder.com/docs/generating-your-android-package)**
+- **[PWA Builder - generating store packages in browser](https://blog.pwabuilder.com/docs/generating-your-android-package)**
 - **[More PWA tools](https://www.pwabuilder.com/)**
